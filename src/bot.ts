@@ -33,7 +33,9 @@ const client = new Discord.Client({
 	partials: ["MESSAGE", "CHANNEL", "REACTION"],
 }) as Discord.Client;
 
-export let config: Config = JSON.parse(readFileSync("./config.json", "utf-8"));
+export let config: Config = JSON.parse(
+	readFileSync("./configs/config.json", "utf-8")
+);
 
 const DISCORD_TOKEN = config.token as string;
 global.log_channel = config.log_channel as string;
