@@ -1,6 +1,6 @@
 <!-- code block with config.json -->
-[]: # Language: json
-[]: # Path: config.json
+`configs/config.json`
+```json
 {
 	"token": "token",
 	"log_channel": "611610044387033109",
@@ -13,6 +13,4 @@
 		"611270390211411971"
 	]
 }
-
-[]: # Language: markdown
-[]: # Path: LICENSE
+```
